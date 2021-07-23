@@ -12,7 +12,7 @@ public class HelloWorld {
 			System.out.println("The current local time is: " + currentTime);
 			Greeter greeter = new Greeter();
 			System.out.println(greeter.sayHello());
-			TimeUnit.SECONDS.sleep(10000);
+			TimeUnit.SECONDS.sleep(1000);
 		}
 	  
 	  	catch(Exception ex)
