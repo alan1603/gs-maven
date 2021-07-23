@@ -1,6 +1,7 @@
 package hello;
 
 import org.joda.time.LocalTime;
+import java.util.concurrent.TimeUnit;
 
 public class HelloWorld {
 	public static void main(String[] args) {
@@ -8,7 +9,7 @@ public class HelloWorld {
 		System.out.println("The current local time is: " + currentTime);
 		Greeter greeter = new Greeter();
 		System.out.println(greeter.sayHello());
-		Thread.sleep(1000);
+		TimeUnit.SECONDS.sleep(1);
 
 		
 	}
